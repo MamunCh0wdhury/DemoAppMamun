@@ -10,9 +10,12 @@ import '../weather_model/WeatherModel.dart';
 class WeatherService {
   /// URL & API Key for Current Weather
 
+
   static const baseurl = 'https://api.tomorrow.io/v4/weather/realtime';
   static const baseUrl = 'https://api.tomorrow.io/v4/weather/forecast';
-  static const apiKey = 'nYC8psr4dN4gpqarGMDkTa1rmXDCyCYa';
+  final String apiKey;
+
+  WeatherService(this.apiKey);
 
   /// Api Call to Get Weather Condition of Current Location
 

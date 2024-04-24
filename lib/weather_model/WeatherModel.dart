@@ -1,4 +1,4 @@
-/// data : {"time":"2024-04-22T12:16:00Z","values":{"cloudBase":0.82,"cloudCeiling":null,"cloudCover":37,"dewPoint":26.63,"freezingRainIntensity":0,"humidity":70,"precipitationProbability":0,"pressureSurfaceLevel":999.88,"rainIntensity":0,"sleetIntensity":0,"snowIntensity":0,"temperature":34.38,"temperatureApparent":48.09,"uvHealthConcern":0,"uvIndex":0,"visibility":15.22,"weatherCode":1101,"windDirection":175.5,"windGust":4.81,"windSpeed":2.19}}
+/// data : {"time":"2024-04-24T19:47:00Z","values":{"cloudBase":0.03,"cloudCeiling":null,"cloudCover":18,"dewPoint":26.19,"freezingRainIntensity":0,"humidity":99,"precipitationProbability":0,"pressureSurfaceLevel":1000.72,"rainIntensity":0,"sleetIntensity":0,"snowIntensity":0,"temperature":29.38,"temperatureApparent":41.05,"uvHealthConcern":0,"uvIndex":0,"visibility":10.45,"weatherCode":1100,"windDirection":156.31,"windGust":4.69,"windSpeed":1.13}}
 /// location : {"lat":23.83123779296875,"lon":91.28237915039062,"name":"Agartala, Mohanpur, West Tripura District, Tripura, 799001, India","type":"city"}
 
 class WeatherModel {
@@ -88,8 +88,8 @@ Location copyWith({  num? lat,
 
 }
 
-/// time : "2024-04-22T12:16:00Z"
-/// values : {"cloudBase":0.82,"cloudCeiling":null,"cloudCover":37,"dewPoint":26.63,"freezingRainIntensity":0,"humidity":70,"precipitationProbability":0,"pressureSurfaceLevel":999.88,"rainIntensity":0,"sleetIntensity":0,"snowIntensity":0,"temperature":34.38,"temperatureApparent":48.09,"uvHealthConcern":0,"uvIndex":0,"visibility":15.22,"weatherCode":1101,"windDirection":175.5,"windGust":4.81,"windSpeed":2.19}
+/// time : "2024-04-24T19:47:00Z"
+/// values : {"cloudBase":0.03,"cloudCeiling":null,"cloudCover":18,"dewPoint":26.19,"freezingRainIntensity":0,"humidity":99,"precipitationProbability":0,"pressureSurfaceLevel":1000.72,"rainIntensity":0,"sleetIntensity":0,"snowIntensity":0,"temperature":29.38,"temperatureApparent":41.05,"uvHealthConcern":0,"uvIndex":0,"visibility":10.45,"weatherCode":1100,"windDirection":156.31,"windGust":4.69,"windSpeed":1.13}
 
 class Data {
   Data({
@@ -124,26 +124,26 @@ Data copyWith({  String? time,
 
 }
 
-/// cloudBase : 0.82
+/// cloudBase : 0.03
 /// cloudCeiling : null
-/// cloudCover : 37
-/// dewPoint : 26.63
+/// cloudCover : 18
+/// dewPoint : 26.19
 /// freezingRainIntensity : 0
-/// humidity : 70
+/// humidity : 99
 /// precipitationProbability : 0
-/// pressureSurfaceLevel : 999.88
+/// pressureSurfaceLevel : 1000.72
 /// rainIntensity : 0
 /// sleetIntensity : 0
 /// snowIntensity : 0
-/// temperature : 34.38
-/// temperatureApparent : 48.09
+/// temperature : 29.38
+/// temperatureApparent : 41.05
 /// uvHealthConcern : 0
 /// uvIndex : 0
-/// visibility : 15.22
-/// weatherCode : 1101
-/// windDirection : 175.5
-/// windGust : 4.81
-/// windSpeed : 2.19
+/// visibility : 10.45
+/// weatherCode : 1100
+/// windDirection : 156.31
+/// windGust : 4.69
+/// windSpeed : 1.13
 
 class Values {
   Values({
