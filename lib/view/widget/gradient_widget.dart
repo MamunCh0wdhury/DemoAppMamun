@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class GradientBox extends StatelessWidget {
   const GradientBox({
@@ -12,12 +13,12 @@ class GradientBox extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(20),
       child: SizedBox(
-        height: 204.0,
+        height: 204.0.h,
         width: MediaQuery.of(context).size.width*0.98,
         child: Stack(
           children: [
             Container(
-              height: 204.0,
+              height: 204.0.h,
               width: MediaQuery.of(context).size.width*0.98,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
